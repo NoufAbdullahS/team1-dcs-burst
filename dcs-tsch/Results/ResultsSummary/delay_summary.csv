@@ -1,0 +1,5 @@
+scheduler,traffic_mode,n_p50_ms,b_p50_ms,b_p99_ms,burst_delay_increase_ms,burst_delay_multiplier
+DCS,bursty,113,794,2140,681,7.0
+OST,bursty,101,620,1870,519,6.1
+MinConf,bursty,546,2013,6420,1467,3.7
+Orchestra,bursty,2049,3694,9810,1645,1.8

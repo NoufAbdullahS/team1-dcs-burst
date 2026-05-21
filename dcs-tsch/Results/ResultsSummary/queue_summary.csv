@@ -1,0 +1,17 @@
+correlation_radius_m,scheduler,mean_queue_slot19,queue_capacity,mean_pdr,std_pdr
+0,DCS,0.4,8,96.4,1.8
+0,OST,0.3,8,97.1,1.4
+0,MinConf,NA,NA,88.3,6.5
+0,Orchestra,NA,NA,65.0,4.1
+35,DCS,3.8,8,88.1,2.1
+35,OST,1.1,8,95.8,1.6
+35,MinConf,NA,NA,77.5,5.8
+35,Orchestra,NA,NA,59.3,3.9
+50,DCS,5.9,8,79.3,2.8
+50,OST,1.8,8,94.2,1.7
+50,MinConf,NA,NA,68.4,6.2
+50,Orchestra,NA,NA,53.1,4.3
+100,DCS,7.4,8,61.2,3.1
+100,OST,2.6,8,91.7,1.9
+100,MinConf,NA,NA,52.1,7.1
+100,Orchestra,NA,NA,44.8,4.8

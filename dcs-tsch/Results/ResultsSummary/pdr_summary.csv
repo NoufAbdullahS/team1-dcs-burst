@@ -1,0 +1,9 @@
+scheduler,traffic_mode,mean_pdr,std_pdr,mean_b_pdr,std_b_pdr,n_seeds
+DCS,steady,99.3,0.4,NA,NA,5
+DCS,bursty,96.4,1.8,94.8,2.7,10
+OST,steady,99.0,0.6,NA,NA,5
+OST,bursty,97.1,1.4,95.8,2.1,10
+MinConf,steady,96.8,0.9,NA,NA,5
+MinConf,bursty,88.3,6.5,84.7,8.0,10
+Orchestra,steady,92.1,1.2,NA,NA,5
+Orchestra,bursty,65.0,4.1,66.9,2.6,10

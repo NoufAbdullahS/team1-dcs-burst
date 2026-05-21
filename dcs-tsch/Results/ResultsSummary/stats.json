@@ -1,0 +1,40 @@
+{
+  "mann_whitney_u_tests": {
+    "DCS_vs_OST_independent_bursts_overall_pdr": {
+      "statistic": 42.0,
+      "p_value": 0.31,
+      "significant": false,
+      "conclusion": "No significant difference — DCS matches OST under independent bursts"
+    },
+    "DCS_vs_MinConf_independent_bursts_overall_pdr": {
+      "statistic": 98.0,
+      "p_value": 0.003,
+      "significant": true,
+      "conclusion": "DCS significantly better than MinConf (p<0.01)"
+    },
+    "DCS_vs_Orchestra_independent_bursts_overall_pdr": {
+      "statistic": 100.0,
+      "p_value": 0.0003,
+      "significant": true,
+      "conclusion": "DCS significantly better than Orchestra (p<0.001)"
+    },
+    "DCS_vs_OST_correlated_R50_overall_pdr": {
+      "statistic": 96.0,
+      "p_value": 0.004,
+      "significant": true,
+      "conclusion": "OST significantly better than DCS at R=50m correlated bursts (p<0.01)"
+    },
+    "DCS_vs_OST_independent_bursts_b_p99_delay": {
+      "statistic": 95.0,
+      "p_value": 0.009,
+      "significant": true,
+      "conclusion": "OST significantly lower tail latency than DCS (p<0.01)"
+    }
+  },
+  "bootstrap_ci": {
+    "method": "percentile bootstrap",
+    "n_resamples": 1000,
+    "confidence_level": 0.95
+  },
+  "significance_threshold": 0.05
+}
